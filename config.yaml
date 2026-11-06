@@ -1,0 +1,10 @@
+# Daftar model yang tersedia di gateway.
+# name           : nama model yang dipakai klien (field "model" di request)
+# upstream_model : nama model di provider asli
+# api_base       : base URL provider (tanpa /chat/completions)
+# api_key        : API key asli dari provider
+models:
+  - name: claude-haiku-5.5
+    upstream_model: claude-haiku-5.5
+    api_base: https://api.freepi.ai/v1
+    api_key: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIyNTBkMzYyMS0xODk2LTQ2N2ItODMwYi04NzBmNjI0YTdlZmIiLCJpYXQiOjE3OTM4MDE3OTMsImV4cCI6MTgwMTU3Nzc5M30.qtkqY82F4bJSOczt9V77m-MNaN9-zMmboTC9SexSsBU
